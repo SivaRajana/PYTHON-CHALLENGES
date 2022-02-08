@@ -1,3 +1,4 @@
+#should not use lists or regular expressions techniques
 sentence = input()
 test_sentence = sentence.lower()#convert string to lower case so that no need to check 12 ceses (AEIOU and aeiou)
 result_sentence = ""
