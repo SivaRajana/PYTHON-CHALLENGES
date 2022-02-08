@@ -1,0 +1,9 @@
+input_char = input()
+if (input_char != input_char.lower()):
+    print ("Uppercase Letter")
+elif (input_char != input_char.upper()):
+    print ("Lowercase Letter")
+elif (input_char.isdigit()):
+    print ("Digit")
+else:
+    print ("Special Character")
