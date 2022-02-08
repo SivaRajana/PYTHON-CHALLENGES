@@ -5,6 +5,6 @@ string = input()
 string = string.lower()
 modified_string =""
 for i in string:
-    if (i != " "):
+    if (i != " " and i != "'" and i != " \""):
         modified_string = i + modified_string
 print (modified_string == modified_string[::-1])
