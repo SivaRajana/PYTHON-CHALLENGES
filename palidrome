@@ -1,0 +1,4 @@
+given_string = input()
+given_string = given_string.lower()
+reversed_string = given_string[::-1]
+print (given_string == reversed_string)
