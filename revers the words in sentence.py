@@ -4,3 +4,4 @@ reversed_words_list = []
 for i in list_of_words:
     reversed_words_list += [i[::-1]]
 print (" ".join(reversed_words_list))
+  
