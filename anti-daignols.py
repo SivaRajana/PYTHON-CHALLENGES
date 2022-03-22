@@ -8,7 +8,7 @@ def make_int_list(list_a):
     return list_to_return
 matrix = []
 for i in range(M):
-    x = input("").split(" ")
+    x = input().split(" ")
     x = make_int_list(x)
     matrix.append(x)
 
